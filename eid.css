@@ -1,0 +1,178 @@
+ *{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 0%;
+ }
+ h2{font-size: 2rem;
+      margin-bottom: 10px;
+      line-height: 40px;}
+      p{line-height: 30px;}
+
+
+ /* toper section start */
+.topimg{
+      background-image: url(/image/frist.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index: 1;
+      padding: 12.5% 10% 12.5% 10;
+      height: 600px;
+      margin-bottom: 80px;
+}
+      .topimg::before{
+            content: '';
+            background: linear-gradient(90deg, black, transparent);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: .90;
+            z-index: -1;
+      }
+.headercontent{
+      margin-left: 10%;
+      color: greenyellow;
+      padding-top: 10%;
+      align-content: flex-end;
+}
+.topimg h1{
+      color: white;
+      font-size: 2rem;
+      line-height: 50px;
+}
+.link-btn{
+      padding: 12px 20px 12px 20px;
+      background-color:#EF233C;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-transform: capitalize;
+}
+
+.link-btn:hover{
+      color: white;
+      background-color: turquoise;
+}
+/* toper section end */
+
+/* discription start */
+.discription{
+      width: 90%;
+      margin-bottom: 0px;
+}
+.similar{
+      display: flex;
+}
+.discription-text{
+      line-height: 30px;
+}
+.half-width{
+      width: 100%;
+      margin-left: 100px;
+}
+.half-width img{ width: 100%;
+      height: 60%;}
+
+/* discription end */
+
+/* payment section start */
+.payment-text{
+      text-align: center;
+      margin-bottom: 30px;
+}
+
+.payment-box{
+     width: 90%;
+     margin-left: 14%;
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 100px;
+     
+}
+.payment-card{
+      width: 30%;
+      display: flex;
+      background: #ca9298;;
+      margin-left: 20px;
+      margin-top: 20px;
+      padding: 45px;
+      border-radius: 8px;
+}
+.payment-card img{
+      height: 80px;
+      margin-bottom: 20px;
+}
+/* payment section end */
+
+/* image section start */
+.image{
+      width: 90%;
+      margin-left: 7%;
+      margin-right: 3%;
+      margin-bottom: 50px;
+}
+.image img{
+      width: 30%;
+      margin-left: 15px;
+     
+}
+.image-div{ display: flex;
+      }
+/* image section end */
+
+  /* zakat fund start */
+  
+  .zakat-section{
+      margin-bottom: 100px;
+  }
+  .zakat-header{
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .zakat-box{
+      width: 90%;
+      margin-left: 7%;
+      display: flex;
+      border-radius: 2px solid red;
+  }
+  .box-1{
+      text-align: justify;
+      margin-left: 20px;
+      border: 0.5px solid rgb(216, 211, 211);
+      border-radius: 5px; }
+
+      
+  .box-1 h3,a{
+      padding: 20px;
+      line-height: 20px;
+  }
+  .box-1 a{
+      color: red;
+      margin-bottom: 19px;
+  }
+  .box-1 p{
+      padding: 20px;
+      line-height: 20px;
+  }
+  .box-1 img{width: 100%;}
+  /* zakat fund end */
+
+  /* footer part start */
+  footer{
+      background-color: black;
+      text-align: center;
+      padding: 90px;
+      font-size: 30px;
+  }
+  footer h3{
+      color: #EF233C;
+  }
+footer small{ 
+      color: burlywood;
+}
+  /* footer part end */
